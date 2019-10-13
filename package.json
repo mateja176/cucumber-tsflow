@@ -1,0 +1,25 @@
+{
+  "name": "cucumber-typescript",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -p default"
+  },
+  "keywords": [],
+  "author": "Mateja Petrovic <mateja176@gmail.com> (https://github.com/mateja176)",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^1.19.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.3",
+    "@types/cucumber": "^4.0.7",
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.2",
+    "cucumber-pretty": "^6.0.0",
+    "cucumber-tsflow": "^3.2.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  }
+}
